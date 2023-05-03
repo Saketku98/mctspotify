@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101010;
+    height: 70px;
+    .directionKey{
+        padding-left: 30px;
+        button{
+            background-color: #A2A2A2;
+            border-radius: 50px;
+        }
+    }
+    .search{
+        display: none;
+    }
+    .membership{
+        padding-right: 30px;
+        .register{
+            background-color: #101010;
+            color: #A2A2A2;
+            border: 0;
+            font-size: 15px;
+            font-weight: bold;
+            padding-right: 30px;
+        }
+        .session{
+            border-radius: 20px;
+            background-color: white;
+            padding: 8px;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;;
+        }
+    }
+}

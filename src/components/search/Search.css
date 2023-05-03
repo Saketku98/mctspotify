@@ -1,0 +1,39 @@
+.search{
+    display: flex ;
+    background-color: #1D1D1D ;
+    .rightMenu{
+        width: 85%;
+        .header{
+            .header{
+                width: 85%;
+            }
+        }
+        .search{
+            display: inline;
+           input{
+           width: 300px;
+           height: 30px;
+           border-radius: 50px;
+           border: none;
+           font-size:15px ;
+           text-align: center;
+           }
+        }
+        .albums{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            img{
+                width: 150px;
+                height: 150px;
+            }
+            h2{
+                color: white;
+            }
+        }
+    }
+    .leftMenu{
+        width: 15%;
+        background-color: black;
+    }
+}

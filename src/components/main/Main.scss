@@ -1,0 +1,32 @@
+.main{
+    background-color: #1D1D1D ;
+    color: white;
+    margin-top: -25px;
+
+
+    .aText , .bText , .cText{
+       padding-top: 15px;
+       font-size: 20px;
+       padding-left: 90px;
+    }
+    .aAlbum , .bAlbum , .cAlbum{
+        display: flex;
+        font-size: 10px;
+        justify-content: space-around;
+        
+        img{
+            width: 150px;
+            height: 150px;
+        }
+        button{
+            border-radius: 10px;
+            border: none;
+            width: 150px;
+            height: 20px;
+        }
+        button:hover{
+           cursor : pointer; 
+        }
+    }
+}
+  

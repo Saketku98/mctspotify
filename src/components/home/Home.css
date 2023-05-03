@@ -1,0 +1,12 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .rightMenu{
+        width:85%;
+    }
+    .leftMenu{
+        background-color: black;
+    }   
+
+}
